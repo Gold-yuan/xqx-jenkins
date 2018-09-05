@@ -1,4 +1,4 @@
-rootProject.name = 'springboot-jenkins'
+rootProject.name = 'xqx-jenkins'
 
 include 'xqx-base'
 include 'xqx-user'
