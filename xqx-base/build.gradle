@@ -13,6 +13,6 @@ buildscript {
 }
 
 dependencies {
-	compile group: 'org.springframework', name: 'spring-web', version: '5.0.5.RELEASE'
+	compile 'org.springframework:spring-web:5.0.5.RELEASE'
 }
 
