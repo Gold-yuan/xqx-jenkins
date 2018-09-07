@@ -2,8 +2,8 @@ node {
     try {
         stage('Build') {
        		echo 'Building'
-            gradle build
-            pwd
+            sh 'gradle build'
+            sh 'pwd'
             echo 'gradle build finish'
         }
         stage('Deploy') {
@@ -12,6 +12,7 @@ node {
     }
     catch (exc) {
         echo 'I failed'
+        throw exc
     }
     finally {
         echo 'deploy finish'
