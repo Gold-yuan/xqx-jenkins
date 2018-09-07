@@ -12,6 +12,7 @@ node {
     }
     catch (exc) {
         echo 'I failed'
+        throw exc
     }
     finally {
         echo 'deploy finish'
