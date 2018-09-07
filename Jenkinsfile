@@ -3,7 +3,7 @@ node {
         stage('Build') {
        		echo 'Building'
             sh 'gradle build'
-            sh 'pwd'
+            pwd
             echo 'gradle build finish'
         }
         stage('Deploy') {
