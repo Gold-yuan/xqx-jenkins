@@ -1,10 +1,9 @@
 node {
     try {
         stage('Build') {
-       		echo 'Building'
+       		echo 'Building 234'
             sh 'gradle build'
-            sh 'pwd'
-            echo 'gradle build finish'
+            echo 'gradle build finish 233'
         }
         stage('Deploy') {
        		echo 'Deploying'
