@@ -10,7 +10,7 @@ public class HelloKenjins {
 	@GetMapping(value = "/hello")
 	public String hello() {
 		
-		return "hello luck boy! This is next version!2018-09-11!This is a branch";
+		return "hello luck boy! This is next version!2018-09-11!This is a branch!gouzi?";
 	}
 	@RequestMapping(value = "/hello2")
 	public String hello2() {
